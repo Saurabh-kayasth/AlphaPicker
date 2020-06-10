@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.m in.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./control.js"></script>
+  </head>
+  <body>
+    <audio id="audio" src="../collect.mp3"></audio>
+    <audio id="wrong" src="../wrong.mp3"></audio>
+    <div style="width: 100%; height: 50px;">
+      <h5>
+        <a href="./index.html">PLAY</a><span><a href="/">ABOUT</a></span>
+      </h5>
+    </div>
+    <div ng-app="myApp" ng-controller="myCtrl" class="dashboard">
+      <div class="playGround">
+        <h1 style="color: white;">About This Game</h1>
+        <div class="" style="color: white; font-size: 30px;">
+          <p>
+            This is single player game. <br />
+            There are two parts in a game. One is target and the other is
+            playgroud where we have to choose the target. <br />
+            After every 3 seconds the target gets changed. <br />
+            Within 3 seconds the player has to click on a correct target. <br />
+            If the target selected by the player is correct , the player gets 2
+            points and if it is wrong the player looses 1 point. <br />
+            <br />
+            v 1.0
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

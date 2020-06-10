@@ -1,0 +1,128 @@
+body {
+  padding: 30px;
+  padding-top: 0px; /* background-color: #008080; */
+
+  background-image: url("./bg.jpg");
+  background-size: cover;
+}
+.dashboard {
+  background-color: teal;
+  width: 96%;
+  height: 600px;
+  padding: 30px; /* box-shadow: 8px 8px 8px black; */
+  box-shadow: 0px 20px 20px -3px black;
+}
+.playGround {
+  height: 500px;
+}
+.selector {
+  background-color: teal;
+  width: 50%;
+  height: 600px;
+  float: left;
+  border-color: white;
+}
+.target {
+  /* background-color: peru; */
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 600px;
+  float: left; /* box-shadow: 5px 5px 5px black; */
+  box-shadow: 0px 16px 16px -6px black;
+}
+.targetContainer {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 10px;
+}
+.targetElement {
+  background-color: #e52b50;
+  margin: 15px;
+  height: 65px;
+  width: 65px;
+  float: left;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 20px;
+  border-radius: 50%; /* box-shadow: 8px 8px 8px black; */
+  box-shadow: 0px 16px 16px -6px black;
+}
+.targetElement:hover {
+  box-shadow: 0px 0px 0px white;
+}
+.data {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15px; /* padding: 6px; */
+} /* .data:hover { 
+color : goldenrod; } */
+.heading {
+  width: 97%;
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  /* background-color: peru; */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.high-score {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px black;
+}
+.targetData {
+  background-color: white;
+  width: 30%;
+  float: left;
+  margin: 65px;
+  margin-left: 140px;
+  margin-top: 50px;
+  box-shadow: 8px 8px 8px black;
+  border-radius: 20px;
+  height: 200px;
+  background-color: #c0c0c0;
+  margin-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.targetTime {
+  background-color: #c0c0c0;
+  border-width: 2px;
+  width: 30%;
+  float: left;
+  margin: 65px;
+  margin-left: 0px;
+  margin-top: 50px;
+  box-shadow: 8px 8px 8px black;
+  border-radius: 20px;
+  height: 200px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+a {
+  background-color: teal;
+  box-shadow: 0 5px 0 black;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+}
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
